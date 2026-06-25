@@ -1,14 +1,11 @@
 class Solution:
-    def twoSum(self, nums, target):
-        # Dictionary to store number:index pairs
-        number_map = {}
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        num_map = {}
 
         for i, num in enumerate(nums):
-            diff = target - num
+            complement = target - num
 
-            if diff in number_map:
-                return [i, number_map[diff]]
+            if complement in num_map:
+                return [num_map[complement], i]
 
-            number_map[num] = i
-
-        return None
+            num_map[num] = i
