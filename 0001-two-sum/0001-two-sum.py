@@ -1,11 +1,10 @@
 class Solution(object):
     def twoSum(self, arr, target):
         seen={}
-        for i in range(0,len(arr)):
-            rem=target-arr[i]
-            if rem in seen:
-                return i,seen[rem]
+        for i in range(len(arr)):
+            res=target-arr[i]
+            if res in seen:
+                return seen[res],i
                 break
-            seen[arr[i]]=i
-        
-
+            else:
+                seen[arr[i]]=i
