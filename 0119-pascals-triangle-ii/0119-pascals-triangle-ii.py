@@ -1,15 +1,10 @@
 class Solution(object):
     def getRow(self, n):
-        ans = []
+        res = 1
+        ans=[]
 
-        def ncr(n, r):
-            res = 1
-            for i in range(r):
-                res = res * (n - i)
-                res = res // (i + 1)
-            return res
-
-        for c in range(n + 1):
-            ans.append(ncr(n, c))
+        for c in range(n+1):
+            ans.append(res)
+            res = res * (n - c) // (c + 1)
 
         return ans
