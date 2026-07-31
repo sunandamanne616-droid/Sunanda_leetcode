@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0048-rotate-image](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0054-spiral-matrix) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0169-majority-element) |
 ## Counting
@@ -105,4 +107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/sunandamanne616-droid/Sunanda_leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
