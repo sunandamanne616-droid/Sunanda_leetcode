@@ -2,7 +2,8 @@ class Solution(object):
     def isAnagram(self, s, t):
         freq1={}
         freq2={}
-
+        if len(s)!=len(t):
+            return False
         for ch in s:
             freq1[ch]=freq1.get(ch,0)+1
         for ch in t:
